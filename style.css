@@ -1,0 +1,75 @@
+body{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Signika', sans-serif;
+background-color: rgba(1, 15, 14, 0.754);
+}
+.main-container {
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 70px;
+    /* left:110px; */
+    width: 80%;
+    border: 2px solid dodgerblue;
+    height: 350px;
+    border-radius: 20px;
+  }
+  
+  
+  div h3 {
+    font-size: 30px;
+    color: dodgerblue;
+    background-color: #333;
+    padding: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid dodgerblue;
+    border-radius: 17px;
+  }
+  
+  div p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 25px;
+    color: aliceblue;
+  }
+  
+  div a {
+    background-color: dodgerblue;
+    padding: 15px 75px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  div a:hover {
+    background-color: black;
+    transition: ease .25s;
+    color: dodgerblue;
+  }
+
+  .apiused{
+    position: relative;
+    bottom: 20px;
+  }
+  .sourcecode
+  {
+    position: relative;
+    top: 50px;
+  }
+
+  @media only screen and (max-width:600px) {
+    .main-container
+    {
+        margin-right: 5px;
+        margin-left: 5px;
+        width: auto;
+        position: relative;
+        top: 40px;
+    }
+    .apiused{
+        position: relative;
+        bottom: 70px;
+      }
+  }
